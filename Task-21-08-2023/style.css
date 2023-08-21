@@ -1,0 +1,57 @@
+/* center align using margin
+.margin{
+    justify-items: center;
+    width: 400px;
+    height:400px;
+    justify-items: center;
+    background-color: aquamarine;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+    margin-left: 700px;
+}
+center align using flex
+.flex{
+    justify-items: center;
+    width: 400px;
+    height:400px;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+center align using grid
+.grid{
+    display: grid;
+    justify-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    background-color: aquamarine;
+}
+center align using position
+.position{
+    position: absolute;
+    background-color: aquamarine;
+    width: 400px;
+    height:400px;
+    top:200px;
+    bottom:100px;
+} */
+
+.Transistion{
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin:300px 0px 0px 800px;
+    
+}
+.Transistion:hover{
+    background-color: rgb(158, 198, 54);
+    border-radius: 10px;
+    transform:scale(2);
+
+}
