@@ -1,0 +1,47 @@
+div{
+    border:10px solid black;
+    height: 500px;
+    width: 400px;
+    border-width: thin;
+}
+section{
+    border: 10px solid black;
+    border-width: thin;
+    width: 1133px;
+    height: 960px;
+}
+.static
+{
+    font-size: xx-large;
+    background-color: aqua;
+    text-align: center;
+    
+    width: 300px;
+    height: 300px;
+    position:static;
+    border: 10px solid black;
+}
+.absolute
+{
+    font-size: xx-large;
+    background-color: aqua;
+    text-align: center;
+    
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    left: 820px;
+    border: 10px solid black;
+}
+.relative
+{
+    font-size: xx-large;
+    background-color: aqua;
+    text-align: center;
+    
+    width: 300px;
+    height: 300px;
+    position:relative;
+    left:400px;
+    border: 10px solid black;
+}
